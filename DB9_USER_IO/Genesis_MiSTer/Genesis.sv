@@ -42,7 +42,7 @@ module emu
 	//Video aspect ratio for HDMI. Most retro systems have ratio 4:3.
 	output  [7:0] VIDEO_ARX,
 	output  [7:0] VIDEO_ARY,
-	
+
 	output  [7:0] VGA_R,
 	output  [7:0] VGA_G,
 	output  [7:0] VGA_B,
@@ -418,16 +418,13 @@ system system
 	.GG_AVAILABLE(gg_available),
 
 	.J3BUT(~status[5]),
-//	.JOY_1(status[4] ? joystick_1 : joystick_0 ),  
-//	.JOY_2(status[4] ? joystick_1 : joystick_1 ), 
-	
 	.JOY_1(status[4] ? joystick_1 : (joystick_0 | joy1_o_db9 ) ),  // ZYXM SCBA UDLR
 	.JOY_2(status[4] ? (joystick_0 | joy1_o_db9 ) : joystick_1 ),  // ZYXM SCBA UDLR
-	
+
 	.JOY_3(joystick_2),
 	.JOY_4(joystick_3),
 	.MULTITAP(status[22:21]),
-	
+
 	.MOUSE(ps2_mouse),
 	.MOUSE_OPT(status[20:18]),
 

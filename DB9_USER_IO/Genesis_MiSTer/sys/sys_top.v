@@ -143,8 +143,6 @@ module sys_top
 	////////// MB LED ///////////
 	output  [7:0] LED
 
-	///////// USER IO ///////////
-//	inout   [6:0] USER_IO
 );
 
 
@@ -870,7 +868,7 @@ osd hdmi_osd
 
 reg [23:0] dv_data;
 reg        dv_hs, dv_vs, dv_de;
-always @(negedge clk_vid) begin
+always @(posedge clk_vid) begin
 	reg [23:0] dv_d1, dv_d2;
 	reg        dv_de1, dv_de2, dv_hs1, dv_hs2, dv_vs1, dv_vs2;
 	reg [12:0] vsz, vcnt;
@@ -1078,26 +1076,6 @@ alsa alsa
 	.pcm_r(alsa_r)
 );
 
-
-////////////////  User I/O (USB 3.0 connector) /////////////////////////
-
-//assign USER_IO[0] =                       !user_out[0]  ? 1'b0 : 1'bZ;
-//assign USER_IO[1] =                       !user_out[1]  ? 1'b0 : 1'bZ;
-//assign USER_IO[2] = !(SW[1] ? HDMI_I2S   : user_out[2]) ? 1'b0 : 1'bZ;
-//assign USER_IO[3] =                       !user_out[3]  ? 1'b0 : 1'bZ;
-//assign USER_IO[4] = !(SW[1] ? HDMI_SCLK  : user_out[4]) ? 1'b0 : 1'bZ;
-//assign USER_IO[5] = !(SW[1] ? HDMI_LRCLK : user_out[5]) ? 1'b0 : 1'bZ;
-//assign USER_IO[6] =                       !user_out[6]  ? 1'b0 : 1'bZ;
-
-//assign user_in[0] =         USER_IO[0];
-//assign user_in[1] =         USER_IO[1];
-//assign user_in[2] = SW[1] | USER_IO[2];
-//assign user_in[3] =         USER_IO[3];
-//assign user_in[4] = SW[1] | USER_IO[4];
-//assign user_in[5] = SW[1] | USER_IO[5];
-//assign user_in[6] =         USER_IO[6];
-
-
 ///////////////////  User module connection ////////////////////////////
 
 wire [15:0] audio_ls, audio_rs;
@@ -1138,14 +1116,9 @@ wire        osd_status;
 
 wire  [6:0] user_out, user_in;
 
-
-
-
-
 // Joystick 6 buttons megadrive 
 wire [11:0] joy1_o;   // -- MXYZ SACB RLDU
 wire [11:0] joy2_o;   // -- MXYZ SACB RLDU
-
 
 // create a binary counter
 reg [31:0] cnt; // 32-bit counter
@@ -1164,25 +1137,25 @@ end
 
 
 // Llamamos a la maquina de estados para leer los 6 botones del mando de Megadrive
-// Formato joy1_o [11:0] =  MXYZ SACB RLDU		
-  sega_joystick joy (
-	 .joy1_up_i		(joy1_up_i),
-    .joy1_down_i	(joy1_down_i),
-	 .joy1_left_i	(joy1_left_i),
-	 .joy1_right_i	(joy1_right_i),
-	 .joy1_p6_i		(joy1_p6_i),
-	 .joy1_p9_i		(joy1_p9_i),
-	 .joy2_up_i		(joy2_up_i),
-    .joy2_down_i	(joy2_down_i),
-	 .joy2_left_i	(joy2_left_i),
-    .joy2_right_i	(joy2_right_i),
-    .joy2_p6_i		(joy2_p6_i),
-	 .joy2_p9_i		(joy2_p9_i),
-	 .vga_hsync_n_s(cnt[10]),
-	 .joyX_p7_o		(joyX_p7_o), // select signal
-	 .joy1_o			(joy1_o),    // MXYZ SACB RLDU	
-    .joy2_o			(joy2_o)     // MXYZ SACB RLDU	 
- );
+// Formato joy1_o [11:0] =  MXYZ SACB RLDU
+sega_joystick joy (
+	.joy1_up_i		(joy1_up_i),
+	.joy1_down_i	(joy1_down_i),
+	.joy1_left_i	(joy1_left_i),
+	.joy1_right_i	(joy1_right_i),
+	.joy1_p6_i		(joy1_p6_i),
+	.joy1_p9_i		(joy1_p9_i),
+	.joy2_up_i		(joy2_up_i),
+	.joy2_down_i	(joy2_down_i),
+	.joy2_left_i	(joy2_left_i),
+	.joy2_right_i	(joy2_right_i),
+	.joy2_p6_i		(joy2_p6_i),
+	.joy2_p9_i		(joy2_p9_i),
+	.vga_hsync_n_s(cnt[10]),
+	.joyX_p7_o		(joyX_p7_o), // select signal
+	.joy1_o			(joy1_o),    // MXYZ SACB RLDU
+	.joy2_o			(joy2_o)     // MXYZ SACB RLDU 
+);
 
 
 emu emu
@@ -1405,6 +1378,3 @@ always @(posedge clk) begin
 end
 
 endmodule
-
-
-	
