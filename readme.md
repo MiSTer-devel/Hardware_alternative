@@ -4,6 +4,3 @@ position of capacitors. I will upload with new picture when available, but at th
 is a XXS 128 for reference:
 
 ![XXS 128](SDRAM_XXSD/XXS128.jpg?raw=true "XXS 128")
-
-The cores with DB9 support are available here:
-https://github.com/antoniovillena/MiSTer_DB9
