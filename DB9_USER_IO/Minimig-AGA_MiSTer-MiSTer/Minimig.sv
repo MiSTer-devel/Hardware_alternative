@@ -50,6 +50,9 @@ module emu
 	// b[0]: osd button
 	output  [1:0] BUTTONS,
 	
+		// I/O Joystick added  
+	input [11:0] JOYAV,
+	
 	output [15:0] AUDIO_L,
 	output [15:0] AUDIO_R,
 	output        AUDIO_S, // 1 - signed audio samples, 0 - unsigned
@@ -462,7 +465,7 @@ minimig minimig
 	.ri           (1                ), // RS232 Ring Indicator
 
 	//I/O
-	._joy1        (~JOY0            ), // joystick 1 [fire4,fire3,fire2,fire,up,down,left,right] (default mouse port)
+	._joy1        (~JOY0&JOYAV      ), // joystick 1 [fire4,fire3,fire2,fire,up,down,left,right] (default mouse port)
 	._joy2        (~JOY1            ), // joystick 2 [fire4,fire3,fire2,fire,up,down,left,right] (default joystick port)
 	._joy3        (~JOY2            ), // joystick 1 [fire4,fire3,fire2,fire,up,down,left,right]
 	._joy4        (~JOY3            ), // joystick 2 [fire4,fire3,fire2,fire,up,down,left,right]
