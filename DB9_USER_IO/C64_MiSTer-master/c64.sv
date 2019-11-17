@@ -68,6 +68,9 @@ module emu
 	// b[0]: osd button
 	output  [1:0] BUTTONS,
 
+		// I/O Joystick added  
+	input   [5:0] JOYAV,
+
 	output [15:0] AUDIO_L,
 	output [15:0] AUDIO_R,
 	output        AUDIO_S,   // 1 - signed audio samples, 0 - unsigned
@@ -405,7 +408,7 @@ cartridge cartridge
 );
 
 // rearrange joystick contacts for c64
-wire [6:0] joyA_int = {joyA[6:4], joyA[0], joyA[1], joyA[2], joyA[3]};
+wire [6:0] joyA_int = {1'b0,~JOYAV} | {joyA[6:4], joyA[0], joyA[1], joyA[2], joyA[3]};
 wire [6:0] joyB_int = {joyB[6:4], joyB[0], joyB[1], joyB[2], joyB[3]};
 wire [6:0] joyC_c64 = {joyC[6:4], joyC[0], joyC[1], joyC[2], joyC[3]};
 wire [6:0] joyD_c64 = {joyD[6:4], joyD[0], joyD[1], joyD[2], joyD[3]};
