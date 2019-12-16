@@ -1256,9 +1256,9 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <instance part="RN2" gate="D" x="88.9" y="60.96"/>
 <instance part="RN2" gate="C" x="88.9" y="66.04"/>
 <instance part="RN1" gate="D" x="88.9" y="50.8"/>
-<instance part="RN1" gate="B" x="88.9" y="45.72"/>
+<instance part="RN1" gate="A" x="88.9" y="45.72"/>
 <instance part="RN2" gate="B" x="88.9" y="40.64"/>
-<instance part="RN1" gate="A" x="88.9" y="35.56"/>
+<instance part="RN1" gate="B" x="88.9" y="35.56"/>
 <instance part="RN2" gate="A" x="88.9" y="30.48"/>
 <instance part="D7" gate="G$1" x="73.66" y="38.1" rot="R180"/>
 <instance part="D8" gate="G$1" x="73.66" y="33.02" rot="R180"/>
@@ -1456,7 +1456,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="73.66" y1="45.72" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
 <junction x="73.66" y="45.72"/>
 <label x="58.42" y="45.72" size="1.778" layer="95"/>
-<pinref part="RN1" gate="B" pin="1"/>
+<pinref part="RN1" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="JP11" gate="G$1" pin="1"/>
@@ -1493,7 +1493,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </net>
 <net name="1PDOWN" class="0">
 <segment>
-<pinref part="RN1" gate="A" pin="2"/>
+<pinref part="RN1" gate="B" pin="2"/>
 <wire x1="93.98" y1="35.56" x2="99.06" y2="35.56" width="0.1524" layer="91"/>
 <label x="93.98" y="35.56" size="1.778" layer="95"/>
 </segment>
@@ -1541,7 +1541,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 </net>
 <net name="1PFIRE1" class="0">
 <segment>
-<pinref part="RN1" gate="B" pin="2"/>
+<pinref part="RN1" gate="A" pin="2"/>
 <wire x1="93.98" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
 <label x="93.98" y="45.72" size="1.778" layer="95"/>
 </segment>
@@ -1558,7 +1558,7 @@ Standard DB9 (D-Sub 9) serial connector. Can be used for CAN bus as well as RS48
 <wire x1="73.66" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
 <junction x="73.66" y="35.56"/>
 <label x="58.42" y="35.56" size="1.778" layer="95"/>
-<pinref part="RN1" gate="A" pin="1"/>
+<pinref part="RN1" gate="B" pin="1"/>
 </segment>
 <segment>
 <pinref part="JP21" gate="G$1" pin="1"/>
