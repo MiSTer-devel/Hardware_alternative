@@ -5748,6 +5748,179 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Wuerth_Elektronik_eiCan_Communication_Connectors_STENCIL">
+<description>&lt;BR&gt;Würth Elektronik -- Electronic Interconnect &amp; Electromechanical Solutions&lt;br&gt;&lt;Hr&gt;
+&lt;BR&gt;&lt;BR&gt; 
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-405&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com"&gt;http://www.we-online.com&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:pm.hotline@we-online.de"&gt;pm.hotline@we-online.de&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither CadSoft nor WE-eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
+&lt;hr&gt;
+Version 1.2,   May 6-th 2011
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="692112030100">
+<description>&lt;B&gt;WR-COM &lt;/B&gt; USB 3.0 SMT PLUG WITH CLIPTYPE A</description>
+<wire x1="6" y1="19.85" x2="-6" y2="19.85" width="0.127" layer="21"/>
+<wire x1="-6" y1="19.85" x2="-6" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-6" y1="-0.9" x2="6" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="6" y1="-0.9" x2="6" y2="19.85" width="0.127" layer="21"/>
+<wire x1="6" y1="19.85" x2="-6" y2="19.85" width="0.127" layer="51"/>
+<wire x1="-6" y1="19.85" x2="-6" y2="5.14" width="0.127" layer="51"/>
+<wire x1="-6" y1="5.14" x2="-6" y2="0.9" width="0.127" layer="51"/>
+<wire x1="-6" y1="0.9" x2="6" y2="0.9" width="0.127" layer="51"/>
+<wire x1="6" y1="0.9" x2="6" y2="19.85" width="0.127" layer="51"/>
+<wire x1="-6" y1="5.14" x2="6" y2="5.14" width="0.127" layer="51"/>
+<wire x1="6" y1="5.14" x2="6" y2="19.94" width="0.127" layer="51"/>
+<wire x1="6" y1="19.94" x2="-6" y2="19.94" width="0.127" layer="51"/>
+<wire x1="-6" y1="19.94" x2="-6" y2="5.14" width="0.127" layer="51"/>
+<wire x1="-6.35" y1="1.79" x2="-6.35" y2="3.1" width="0.01" layer="46"/>
+<wire x1="-6.35" y1="3.1" x2="-5.85" y2="3.6" width="0.01" layer="46" curve="-90"/>
+<wire x1="-5.85" y1="3.6" x2="-5.84" y2="3.6" width="0.01" layer="46"/>
+<wire x1="-5.84" y1="3.6" x2="-5.35" y2="3.06" width="0.01" layer="46" curve="-90"/>
+<wire x1="-5.35" y1="3.06" x2="-5.35" y2="1.78" width="0.01" layer="46"/>
+<wire x1="-5.35" y1="1.78" x2="-5.83" y2="1.3" width="0.01" layer="46" curve="-90"/>
+<wire x1="-5.83" y1="1.3" x2="-5.91" y2="1.3" width="0.01" layer="46"/>
+<wire x1="-5.91" y1="1.3" x2="-6.35" y2="1.79" width="0.01" layer="46" curve="-90"/>
+<wire x1="5.35" y1="1.69" x2="5.35" y2="1.8" width="0.01" layer="46"/>
+<wire x1="5.35" y1="1.8" x2="5.35" y2="3.11" width="0.01" layer="46"/>
+<wire x1="5.35" y1="3.11" x2="5.84" y2="3.6" width="0.01" layer="46" curve="-90"/>
+<wire x1="5.84" y1="3.6" x2="5.86" y2="3.6" width="0.01" layer="46"/>
+<wire x1="5.86" y1="3.6" x2="6.35" y2="3.11" width="0.01" layer="46" curve="-90"/>
+<wire x1="6.35" y1="3.11" x2="6.35" y2="1.8" width="0.01" layer="46"/>
+<wire x1="6.35" y1="1.8" x2="5.85" y2="1.3" width="0.01" layer="46" curve="-90"/>
+<wire x1="5.85" y1="1.3" x2="5.8" y2="1.3" width="0.01" layer="46"/>
+<wire x1="5.8" y1="1.3" x2="5.35" y2="1.8" width="0.01" layer="46" curve="-90"/>
+<pad name="Z1" x="5.85" y="2.45" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<pad name="Z2" x="-5.85" y="2.45" drill="1" diameter="1.6764" shape="long" rot="R90"/>
+<smd name="7" x="0" y="0" dx="1.8" dy="0.7" layer="1" rot="R90"/>
+<smd name="2" x="-1" y="0" dx="1.8" dy="0.7" layer="1" rot="R90"/>
+<smd name="8" x="-2" y="0" dx="1.8" dy="0.7" layer="1" rot="R90"/>
+<smd name="3" x="1" y="0" dx="1.8" dy="0.7" layer="1" rot="R90"/>
+<smd name="6" x="2" y="0" dx="1.8" dy="0.7" layer="1" rot="R90"/>
+<smd name="4" x="3" y="0" dx="1.8" dy="0.7" layer="1" rot="R90"/>
+<smd name="1" x="-3" y="0" dx="1.8" dy="0.7" layer="1" rot="R90"/>
+<smd name="5" x="4" y="0" dx="1.8" dy="0.7" layer="1" rot="R90"/>
+<smd name="9" x="-4" y="0" dx="1.8" dy="0.7" layer="1" rot="R90"/>
+<text x="7" y="15" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-3.5" y="-2.5" size="1.27" layer="51">1</text>
+<text x="-4.5" y="-2.5" size="1.27" layer="51">9</text>
+<text x="2.5" y="-2.5" size="1.27" layer="51">4</text>
+<text x="3.5" y="-2.5" size="1.27" layer="51">5</text>
+<text x="-1.5" y="-2.5" size="1.27" layer="51">2</text>
+<text x="0.5" y="-2.5" size="1.27" layer="51">3</text>
+<text x="1.5" y="-2.5" size="1.27" layer="51">6</text>
+<text x="-0.5" y="-2.5" size="1.27" layer="51">7</text>
+<text x="-2.5" y="-2.5" size="1.27" layer="51">8</text>
+<text x="7" y="17.2" size="1.27" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="USB3_TYPE_A">
+<wire x1="-7.62" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="12.7" y="2.54" size="1.778" layer="95">&gt;NAME</text>
+<text x="12.7" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VBUS" x="-12.7" y="5.08" length="middle"/>
+<pin name="D-" x="-12.7" y="2.54" length="middle"/>
+<pin name="D+" x="-12.7" y="0" length="middle"/>
+<pin name="GND" x="-12.7" y="-2.54" length="middle"/>
+<pin name="STDA_SSRX-" x="-12.7" y="-5.08" length="middle"/>
+<pin name="STDA_SSRX+" x="-12.7" y="-7.62" length="middle"/>
+<pin name="GND_DRAIN" x="-12.7" y="-10.16" length="middle"/>
+<pin name="STDA_SSTX-" x="-12.7" y="-12.7" length="middle"/>
+<pin name="STDA_SSTX+" x="-12.7" y="-15.24" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="692112030100" prefix="K">
+<description>&lt;B&gt;WR-COM &lt;/B&gt; USB 3.0 SMT PLUG WITH CLIPTYPE A</description>
+<gates>
+<gate name="G$1" symbol="USB3_TYPE_A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="692112030100">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="GND_DRAIN" pad="7"/>
+<connect gate="G$1" pin="STDA_SSRX+" pad="6"/>
+<connect gate="G$1" pin="STDA_SSRX-" pad="5"/>
+<connect gate="G$1" pin="STDA_SSTX+" pad="9"/>
+<connect gate="G$1" pin="STDA_SSTX-" pad="8"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5778,6 +5951,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="RN4" library="resistor-dil" deviceset="4R-N" device="0603-ARC" value="10K"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0603K" value="100nF"/>
+<part name="K2" library="Wuerth_Elektronik_eiCan_Communication_Connectors_STENCIL" deviceset="692112030100" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5816,6 +5990,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <instance part="RN1" gate="C" x="-111.76" y="-24.13"/>
 <instance part="C2" gate="G$1" x="-6.35" y="15.24"/>
 <instance part="C1" gate="G$1" x="-16.51" y="15.24"/>
+<instance part="K2" gate="G$1" x="50.8" y="-27.94" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -5841,6 +6016,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-81.28" y1="-44.45" x2="-71.12" y2="-44.45" width="0.1524" layer="91"/>
 <label x="-81.28" y="-44.45" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="D-"/>
+<wire x1="63.5" y1="-25.4" x2="73.66" y2="-25.4" width="0.1524" layer="91"/>
+<label x="69.85" y="-25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="DAT" class="0">
 <segment>
@@ -5852,6 +6032,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="IC1" gate="A" pin="QH*"/>
 <wire x1="-45.72" y1="-16.51" x2="-33.02" y2="-16.51" width="0.1524" layer="91"/>
 <label x="-43.18" y="-16.51" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="STDA_SSRX-"/>
+<wire x1="63.5" y1="-33.02" x2="73.66" y2="-33.02" width="0.1524" layer="91"/>
+<label x="69.85" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -5877,6 +6062,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-16.51" y1="10.16" x2="-16.51" y2="6.35" width="0.1524" layer="91"/>
 <wire x1="-16.51" y1="6.35" x2="-6.35" y2="6.35" width="0.1524" layer="91"/>
 <label x="-13.97" y="3.81" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="GND"/>
+<wire x1="63.5" y1="-30.48" x2="74.93" y2="-30.48" width="0.1524" layer="91"/>
+<label x="69.85" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LAT" class="0">
@@ -5914,6 +6104,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <junction x="-73.66" y="-52.07"/>
 <wire x1="-73.66" y1="-52.07" x2="-81.28" y2="-52.07" width="0.1524" layer="91"/>
 <label x="-81.28" y="-52.07" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="D+"/>
+<wire x1="63.5" y1="-27.94" x2="73.66" y2="-27.94" width="0.1524" layer="91"/>
+<label x="69.85" y="-27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="2">
@@ -6059,6 +6254,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-6.35" y1="17.78" x2="-6.35" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="-6.35" y1="22.86" x2="-16.51" y2="22.86" width="0.1524" layer="91"/>
 <label x="-13.97" y="22.86" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="K2" gate="G$1" pin="STDA_SSTX+"/>
+<wire x1="63.5" y1="-43.18" x2="74.93" y2="-43.18" width="0.1524" layer="91"/>
+<label x="69.85" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$7" class="0">
